@@ -16,4 +16,5 @@ def race(num_threads):
     print(counter)
 
 if __name__ == "__main__":
-    race(1000)
+    race(1) # always returns 0
+    race(1000) # returns different values
